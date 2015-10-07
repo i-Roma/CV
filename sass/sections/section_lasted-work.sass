@@ -1,0 +1,53 @@
+$rotatePositive: rotate(45deg)
+$rotateNegative: rotate(-45deg)
+
+
+.lasted_work
+  width: 100%
+  height: auto
+  background: steelblue
+  padding-bottom: 50px
+  text-align: center
+
+  .container-work
+    display: inline-block
+    max-width: 1000px
+    margin: 0 auto
+
+    .work
+      display: inline-block
+      width: 150px
+      height: 150px
+      border: 2px solid #ffffff
+      overflow: hidden
+      margin: 45px
+      border-radius: 10px
+      +vendor-prefix(transform, $rotatePositive)
+
+      &_content
+        display: inline-block
+        width: 300px
+        height: 300px
+        background: #fff
+        position: relative
+        line-height: 230px
+        bottom: 50px
+        right: 50px
+        +vendor-prefix(transform, $rotateNegative)
+
+      .content_hover
+        display: inline-block
+        width: 300px
+        height: 300px
+        position: relative
+        line-height: 350px
+        bottom: 375px
+        right: 75px
+        color: #fff
+        background: rgba(0,0,0, .7)
+        opacity: 0
+        +vendor-prefix(transform, $rotateNegative)
+
+        &:hover
+          +vendor-prefix(transition, all 0.5s ease-in-out)
+          opacity: 1

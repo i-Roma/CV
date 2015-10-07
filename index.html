@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/import.css"/>
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script data-require="angular.js@1.1.5" data-semver="1.1.5" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.js"></script>
+</head>
+    <body>
+        <header>
+            <h1 class="name-developer">Roman Romanenko</h1>
+            <nav>
+                <span id="nav-toggle" class="menuX">
+                    <span><!-- Menu Sandwich Line --></span>
+                </span>
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="#skills" class="smoothScroll">Skills</a></li>
+                    <li class="menu-item"><a href="#person" class="smoothScroll">Personal Data</a></li>
+                    <li class="menu-item"><a href="#education" class="smoothScroll">Education</a></li>
+                    <li class="menu-item"><a href="#lasted_work" class="smoothScroll">Last Works</a></li>
+                    <li class="menu-item"><a href="#more_ab_me" class="smoothScroll">More About Me</a></li>
+                    <li class="menu-item"><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+                    <li class="menu-item"><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li class="menu-item"><a href="#wallpaper" class="smoothScroll">Back to Top</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <main>
+
+                <div id="wallpaper" class="wallpaper" data-ng-app>
+                    <div data-ng-controller="slideShowController" class="imageslide" data-ng-switch='slideshow' data-ng-animate="'animate'">
+                        <div class="slider-content" data-ng-switch-when="1">
+                            <img src="./img/mac.jpg" alt="" class="size-img-static"/>
+                        </div>
+                        <div class="slider-content" data-ng-switch-when="2">
+                            <img src="./img/imacCodeHow.png" alt="" class="size-img-static-45"/>
+                        </div>
+                        <div class="slider-content" data-ng-switch-when="3">
+                            <img src="./img/appleMan.jpg" alt="" class="size-img-static"/>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="skills">
+                    <h2 class="caption-block caption-gray" id="skills">My Skills</h2>
+                    <div class="skills-image">
+                            <img src="./img/html5.png" alt="HTML5"/>
+                            <img src="./img/css3.png" alt="CSS3"/>
+                            <img src="./img/js.png" alt="JavaScript"/>
+                            <img src="./img/jquery.png" alt="jQuery"/>
+                            <img src="./img/bootstrap.png" alt="Bootstrap"/>
+                            <img src="./img/sass.png" alt="SASS"/>
+                            <img src="./img/gulp.png" alt="Gulp"/>
+                            <img src="./img/github.gif" alt="GitHub"/>
+                    </div>
+                </section>
+
+                <section class="personal_data">
+                    <h2 class="caption-block" id="person">Personal Data</h2>
+                        <div class="photo-developer">
+                            <img src="./img/photo.png" alt=""/>
+                        </div>
+                        <ul class="about-developer">
+                            <li>Date of birth — February 22, 1991</li>
+                            <li>Place of birth — Kyiv, Ukraine</li>
+                            <li>Age — 24</li>
+                            <li>Marital status — Single</li>
+                            <li>Pernicious habit — absent</li>
+                            <li>Striving for professional and personal development - constant</li>
+                            <li>Good understanding of both written and spoken English</li>
+                            <li>Excellent communication, negotiation and presentation skills</li>
+                        </ul>
+                </section>
+
+                <section class="education">
+                    <p class="sprite book" id="education"></p>
+                    <h2 class="caption-block caption-gray">Education</h2>
+                    <p class="caption-study">
+                        <a href="http://dio-soft.org/" target="_blank">DIO-soft</a>
+                    </p>
+                        <p class="dbl-tab">
+                            Certificate of completion: <a href="http://dio-soft.org/junior-frontend-developer" target="_blank">Junior Front-End Developer</a>
+                        </p>
+
+                    <p class="caption-study">
+                        <a href="http://itea.ua/" target="_blank">IT EDUCATION ACADEMY UKRAINE LLC</a>
+                    </p>
+                        <p class="dbl-tab">
+                            Certificate of completion: <a href="http://itea.ua/javascript-basic/" target="_blank">JavaScript Essential</a>
+                        </p>
+                        <p class="dbl-tab">
+                            Certificate of completion: <a href="http://itea.ua/javascript-advanced/" target="_blank">JavaScript Advanced</a>
+                        </p>
+                        <p class="dbl-tab">
+                            Certificate of completion: <a href="http://itea.ua/javascript-professional/" target="_blank">JavaScript Professional</a>
+                        </p>
+
+                    <p class="caption-study">
+                        <a href="http://iszzi.kpi.ua/index.php/ua/" target="_blank">Institute of Special Communications and Information Potection of National Technical University of Ukraine "Kyiv Polytechnic Institute"</a>
+                    </p>
+                        <p class="tab">Specialist Degree "Management information sysytem and technology" — (2011 - 2012)</p>
+                        <p class="tab">Bachelor Degree "Management information sysytem and technology" — (2007 — 2011)</p>
+
+                    <p class="caption-study">School</p>
+
+                    <p class="tab">
+                        <a href="http://school-78.kiev.ua/index.php/about-school" target="_blank">Comprehensive secondary school №78, Kyiv</a>
+                    </p>
+                </section>
+
+                <section class="lasted_work">
+                    <h2 class="caption-block" id="lasted_work">Latest Work</h2>
+                        <div class="container-work">
+                            <div class="work">
+                                <div class="work_content">ДССЗЗІ</div>
+                                <a href="http://www.dstszi.gov.ua/dstszi/control/uk/index" target="_blank">
+                                    <span class="content_hover">2012 - 2014</span>
+                                </a>
+                            </div>
+                            <div class="work">
+                                <div class="work_content">GIGATRANS</div>
+                                <a href="http://gigatrans.ua/" target="_blank">
+                                    <span class="content_hover">2014</span>
+                                </a>
+                            </div>
+                            <div class="work">
+                                <div class="work_content">RE Kavetsky IEPOR</div>
+                                <a href="http://iepor.org.ua/en/" target="_blank">
+                                    <span class="content_hover">2015</span>
+                                </a>
+                            </div>
+                            <div class="work">
+                                <div class="work_content">Freelance</div>
+                                <a href="https://proffstore.com/" target="_blank">
+                                    <span class="content_hover">End of 2015</span>
+                                </a>
+                            </div>
+                        </div>
+                </section>
+
+                <section class="about-me">
+                    <h2 class="caption-block caption-gray" id="more_ab_me">More About Me</h2>
+
+                    <div class="container-hobbie">
+                        <div class="hobbie">
+                            <img src="./img/downhill.png" alt="Downhill"/>
+                            <p class="par">Bike</p>
+                            What I really adore is cycling. Especially If I have a lucky chance to do it somewhere in mountainous areas,
+                            where I can find some great slopes. Well, I can't say I am a real pro at this
+                            activity, but it's riding a bike that give me pleasure. Downhill competitions
+                            have a tremendous allure to me! Also, I like the combination of this kind of sport
+                            and the fabulous landscapes itself. The speed, nature and the adrenalin — is a real
+                            satisfaction to me. And in all this activity. The responsibility is in your own hands
+                            in a literal sense.
+                        </div>
+                        <div class="hobbie">
+                            <img src="./img/crossfit.png" alt="Crossfit"/>
+                            <p class="par">Love Physical exerisize</p>
+                            By and large, I like everything that is called outdoor activity. But I like to test
+                            myself with different physical activities as well. For me, one of the best way to do
+                            it — to pass training by the CrossFit methodology. Due to CrossFit training, besides
+                            strength, speed and stamina, you can also gain a determined character. You can either
+                            complete or just give up... That is the choice that we always face with in everyday life.
+                            Such training help you to win over yourself, both in physical and mental senses.
+                        </div>
+                        <div class="hobbie">
+                            <img src="./img/mzc.png" alt="Music"/>
+                            <p class="par">Love Music</p>
+                            For me, music means much more than just a hobby or fascination. I prefer progressive
+                            electronic music most of all. Recently, I've fond of eclectic music genre. From time
+                            to time I visit music studio to play behind the DJ mixer. I like it very much. Although
+                            I don't get caught in an endless loop by electronic music since I keen on Jazz, Blues,
+                            Funky-Jazz. I think I am a kind of lisztoman :)
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portfolio">
+                    <h2 class="caption-block" id="portfolio">Portfolio</h2>
+                    <div class="portfolio-conteiner">
+                        <a href="https://github.com/i-Roma/Example/tree/example/Pixel%20to%20pixel" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">Pixel to Pixel</span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/Create%20form" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">Create form</span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/jQuery" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">jQuery</span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/JS%20%26%20Closures" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">JS & Closures</span>
+                        </a>
+                        <a href="http://bak-benzina.com.ua/" target="_blank">
+                            <span class="item-portfolio sprite bak hvr-push"></span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/Adaptive%20layout%20with%20Bootstrap" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">Adaptive layout with Bootstrap</span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/Adaptive%20layout%20without%20Bootstrap%20" target="_blank">
+                            <span class="item-portfolio sprite github hvr-push">Adaptive layout without Bootstrap</span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/Landing%20with%20Bootstrap" target="_blank">
+                            <span class="item-portfolio sprite cross hvr-push"></span>
+                        </a>
+                        <a href="https://github.com/i-Roma/Example/tree/example/Adaptive%20layout%20without%20Bootstrap%20" target="_blank">
+                            <span class="item-portfolio this-page sprite github hvr-push">This Page</span>
+                        </a>
+
+                    </div>
+                </section>
+
+                <section class="contact">
+                    <h2 class="caption-block caption-gray" id="contact">Contact</h2>
+                    <div class="glassy-block">
+                        <p class="contact-text">
+                            I am looking forward for fruitful collaboration in the future. If you are interested, please, feel free to call me or send an email. I will be grateful for your invitation for an interview.
+                        </p>
+                        <p class="contact-text">I'm looking forward to hearing from you!</p>
+                    </div>
+                    <p class="contact-info"><span class="icon sprite iPhone hvr-buzz"></span>093 929 44 78</p>
+                    <p class="contact-info"><span class="icon sprite send hvr-bob"></span>
+                        <a href="mailto:roma.intellect@gmail.com" id="mailto">roma.intellect@gmail.com</a>
+                    </p>
+                    <p class="sprite w3c"></p>
+                </section>
+            </main>
+        </div>
+
+        <footer>
+            <ul class="menu-footer">
+                <li class="menu-footer-item"><a href="#skills" class="smoothScroll">Skills</a></li>
+                <li class="menu-footer-item"><a href="#person" class="smoothScroll">Personal Data</a></li>
+                <li class="menu-footer-item"><a href="#education" class="smoothScroll">Education</a></li>
+                <li class="menu-footer-item"><a href="#lasted_work" class="smoothScroll">Last Works</a></li>
+                <li class="menu-footer-item"><a href="#more_ab_me" class="smoothScroll">More About Me</a></li>
+                <li class="menu-footer-item"><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+                <li class="menu-footer-item"><a href="#contact" class="smoothScroll">Contact</a></li>
+                <li class="menu-footer-item"><a href="#" class="smoothScroll">Back to Top</a></li>
+            </ul>
+            <p class="footer-text">Roman Romanenko ©2015</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

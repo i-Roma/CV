@@ -1,0 +1,28 @@
+.menu
+
+  &-list
+    height: 100%
+    width: 0px
+    background: rgba(0,0,0,.4)
+    position: fixed
+    display: block
+    right: 1000em
+    z-index: 50
+    border-top: 1px solid #808080
+    cursor: pointer
+    opacity: 0
+    transition: width .6s ease-in-out, right 0s ease .6s
+    transition: opacity .6s ease-in-out, right 0s ease .6s
+
+  &-item
+    font-size: 20px
+    margin: 40px 0 40px 60px
+    position: relative
+    white-space: nowrap
+
+    & a
+      text-decoration: none
+      color: rgb(255,255,255)
+
+      &:hover
+        font-weight: 400

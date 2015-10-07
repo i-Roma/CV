@@ -1,0 +1,30 @@
+.portfolio
+  width: 100%
+  height: auto
+  background: teal
+
+  &-conteiner
+    max-width: 90%
+    margin: 0 auto
+    display: flex
+    display: -webkit-flex
+    +vendor-prefix(flex-flow, row wrap)
+    +vendor-prefix(justify-content, center)
+
+    .item-portfolio
+      display: inline-block
+      width: 200px
+      height: 200px
+      border: 2px solid #fff
+      border-radius: 5px
+      margin: 25px 45px
+      float: left
+      text-align: center
+      font-weight: 500
+      font-size: 16px
+      box-sizing: border-box
+      padding: 50px 10px 0 10px
+
+    .this-page
+      font-size: 30px
+
