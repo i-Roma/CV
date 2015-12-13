@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f952c2-de89-4646-bec6-2729f7557a94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/FE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/JSA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/JSE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/JSP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/21bc59841e764a484dbfdf95b8fe2d92f77082d4/main.sassc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CV.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/CV_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificates/fe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificates/jsa.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificates/jse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/certificates/jsp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/certificates/main.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d277fa71ad80082fa6eb72d538ca6528b18be35f/import.sassc" afterPath="$PROJECT_DIR$/.sass-cache/d277fa71ad80082fa6eb72d538ca6528b18be35f/import.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/import.css" afterPath="$PROJECT_DIR$/css/import.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/import.sass" afterPath="$PROJECT_DIR$/sass/import.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="b3f952c2-de89-4646-bec6-2729f7557a94" name="Default" comment="" />
     <ignored path="CV.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
